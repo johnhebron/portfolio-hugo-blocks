@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: zinc
 
 # SEO
 marketing:
@@ -14,10 +14,9 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Hi, my name is John 👋 I am a Senior Software Engineer (5+ years) with a passion for building teams and services.'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-ZDCLKDQNZM'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
@@ -35,12 +34,12 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "John Hebron"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} John Hebron'
     license:
       enable: true
       allow_derivatives: false
