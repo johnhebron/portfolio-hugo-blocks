@@ -38,21 +38,21 @@ profiles:
   - icon: brands/cv
     url: uploads/John_Hebron_Resume_Software_Engineer_2025.pdf
 
-# interests:
-  # - Artificial Intelligence
-  # - Computational Linguistics
-  # - Information Retrieval
+interests:
+  - Sr Software Engineer
+  - People Manager
+  - Technical Writer
 
-# education:
-  # - area: PhD Artificial Intelligence
-  #   institution: Stanford University
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-  #   button:
-  #     text: 'Read Thesis'
-  #     url: 'https://example.com'
+education:
+  - area: 'Bachelor of Interdisciplinary Studies in English, Theatre, Sociology, & Film'
+    institution: Louisiana State University, Baton Rouge
+    # date_start: 2016-01-01
+    date_end: 2012-05-31
+    # summary: |
+    #   Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
   # - area: MEng Artificial Intelligence
   #   institution: Massachusetts Institute of Technology
   #   date_start: 2016-01-01

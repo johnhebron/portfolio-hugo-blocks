@@ -8,7 +8,7 @@ main:
     url: '#about'
     weight: 10
   - name: Work Experience
-    url: '#section-experience'
+    url: '#resume'
     weight: 20
   - name: Writing
     url: '#writing'

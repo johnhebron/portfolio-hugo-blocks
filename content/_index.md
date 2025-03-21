@@ -10,6 +10,7 @@ design:
 
 sections:
   - block: resume-biography-3
+    id: about
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -31,6 +32,7 @@ sections:
         #   position: center
         #   parallax: false
   - block: resume-experience
+    id: resume
     content:
       username: admin
     design:
@@ -40,20 +42,48 @@ sections:
       is_education_first: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: Languages
       subtitle: ''
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
+
         Please reach out to collaborate 😃
     design:
-      columns: '1'
-  - block: collection
-    id: papers
+      columns: 2
+  - block: features
     content:
-      title: Featured Publications
+      title: Languages
+      items:
+        - name: Ruby
+          description: Ruby on Rails, Sinatra
+          icon: devicon/ruby
+        - name: PHP
+          description: Laravel, WordPress
+          icon: devicon/php
+        - name: Golang
+          description:
+          icon: devicon/go
+        - name: Javascript
+          description:
+          icon: devicon/javascript
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Research'
+  #     subtitle: ''
+  #     text: |-
+  #       Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+
+  #       I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+
+  #       Please reach out to collaborate 😃
+  #   design:
+  #     columns: '1'
+  - block: collection
+    id: writing
+    content:
+      title: Writing
       filters:
         folders:
           - publication
