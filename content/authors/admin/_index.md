@@ -194,31 +194,82 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Guest Speaker
+    url: https://www.techwomen.org/
+    date: '2022-03-01'
+    awarder: TechWomen
+    icon: brands/techwomen
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      BigCommerce served as a host/sponsor for 5 awesome applicants in both the H1 2022 TechWomen and the H2 2022 TechWomen conferences.
+
+      As part of their week at BigCommerce learning about all things from ecommerce to being a leader in tech, I was invited to speak about BigCommerce and BigCommerce Engineering (as I was a 9 year veteran at this point) as well as my background as an entrepreneur and creator.
+
+      Speaking to the TechWomen teams is one of the most amazing opportunities I have ever had and I am always so humbled and overwhelmed by the amazing work that these women do. I am honored that my company chooses to support them!
+
+      To read more about the TechWomen visits to BigCommerce, check out this blog post: https://www.bigeng.io/2022-techwomen/
+  - title: Mentor
+    url: https://www.annrichardsschool.org/
+    date: '2019-02-01'
+    awarder: Ann Richards School for Young Women Leaders
+    icon: brands/ann_richards_school_for_young_women_leaders
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      I was invited to act as a mentor for the visiting students from the Anne Richards School for Future Women Leaders during their week long internship at BigCommerce.
+
+      During their time, the high schoolers worked with numerous BigCommerce employees to ideate, plan, and execute on an ecommerce business idea. The goal was to provide them with a super condensed look into the world of being an entrepreneur and working in ecommerce or tech.
+
+      I was lucky enough to be able to spend the week assisting the team with ecommerce/business guidance from my time running multiple online businesses, as well as design and coding advice for their project website.
+
+      To find out more about their visit, check out this blog post: https://www.bigeng.io/opening-the-door-for-future-women-leaders/
+  - title: LGBTQ+ ERG Founder and Lead
+    url: https://careers.bigcommerce.com/inside-bigcommerce/diversity-equity-inclusion/
+    date: '2021-12-01'
+    awarder: BProud ERG @ BigCommerce
+    icon: brands/bproud_@_bigcommerce
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      BProud, BigCommerce’s LGBTQ+ and Allies employee resource group, represents the aspirations and spirit of many more LGBTQ+ BigCommerce employees than I could possibly count.
+
+      Being a Co-Founder and Co-Chair of BProud started long before we wrote and signed our official formation papers in 2018. From the day I started at BigCommerce, I felt a passion to build a community amongst our LGBTQ+ employees (of whom there seemed to be very few at first). Over the years, we tried to form a group numerous times but found that it was a lot more work than we anticipated and there were a lot fewer people willing to take on extra work.
+
+      It wasn’t until 2018 that a fellow LGBTQ employee came to me with a design for what he thought would be an amazing t-shirt for the group we wanted to form. Turns out, it was, and we were able to secure funding from the Support and Engineering organizations to have shirts printed for anyone who wanted one. Once we opened the lid and finally put ourselves out there we were overwhelmed with the number of people interested in getting a shirt and the level of support we started to receive.
+
+      After this amazing discovery, that so many people were out there who also wanted to support us, we finally had the steam to form and build our ERG! Over the years, BProud has provided social, educational, and inspirational events, talks, and more to BigCommerce employees about LGBTQ+ topics.
+  - title: Corporate Sponsorship/Participant
+    url: https://swhackout.org/
+    date: '2018-06-01'
+    awarder: Startout
+    icon: brands/startout
+    summary: |
+      In support of the 2017 and 2018 Hackout, Austin’s first and only LGBTQIA+ entrepreneurship weekend, I secured corporate sponsorship from BigCommerce to support the event, encouraged participation resulting in multiple BigCommerce employee teams, and was lucky enough to participate in the weekend events as a member of my own team.
+
+      As an overlap between LGBTQIA+ and entrepreneurship, Hackout holds a special place in my heart. If you look closely, you can still see a number of past BigCommerce employees featured on the Hackout website and videos!
+
+      To see an overview of HackOut with a special intro by yours truly, check out this video: https://www.youtube.com/watch?v=RrZzOmH-sTw
+  - title: Corporate Sponsorship/Chili Cookoff Participant
+    url: https://humaneheroes.org/
+    date: '2019-03-01'
+    awarder: Texas Humane Heroes
+    icon: brands/texas_humane_heroes
+    summary: |
+      In support of the annual Texas Humane Heroes (THH) Chili Cookoff fundraiser, I would promote and organize participation and sponsorship of the fundraiser from BigCommerce.
+
+      Each Q1 from 2015-2019 (5 years!) I would support the THH Chili Cookoff by forming multiple BigCommerce sponsored cooking teams, securing BigCommerce sponsored participant tickets for employees, and negotiating financial sponsorship opportunities to allow BigCommerce to financially support the work of THH.
+
+      I’m proud to say that we adopted both of our beautiful pups from the amazing THH family, as well!
+
+      Check out this article from BuiltInAustin where I was able to share about BigCommerce’s volunteer work: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019
+  - title: Toy Drive Organizer and Fundraiser
+    url: https://partnershipsforchildren.org/holiday-wishes/
+    date: '2019-12-01'
+    awarder: Partnerships for Children
+    icon: brands/partnerships_for_children
+    summary: |
+      Every holiday season from 2014 to 2019 (6 years!) I volunteered as lead of the BigCommerce Holiday Wishes Toy Drive in support of Partnerships for Children (PfC).
+
+      Within BigCommerce, I would market the toy drive, facilitate communication between BigCommerce and PfC, and solicit and collect monetary donations. This would all culminate in our yearly shopping trip and toy drop off where employees would ’take over’ local stores purchasing thousands of dollars of toys for donations and then would bring in those toys (along with the toys that colleagues had purchased separately) to load up our U-Haul and deliver to the amazing PfC warehouse!
+
+      Each year we would sponsor between 100-500 children with our largest year garnering over $10,000 in donations!
+
+      Check out this article from BuiltInAustin where I was able to share about BigCommerce’s volunteer work: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019
 ---
 
 ## About Me

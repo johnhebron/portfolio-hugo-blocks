@@ -79,6 +79,9 @@ sections:
     design:
       view: article-grid
       columns: 2
+  - block: resume-awards
+    content:
+      title: DEI & Volunteer Work
   - block: collection
     content:
       title: Recent Publications
