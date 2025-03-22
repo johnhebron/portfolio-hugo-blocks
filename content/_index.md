@@ -80,6 +80,7 @@ sections:
       view: article-grid
       columns: 2
   - block: resume-awards
+    id: dei-volunteering
     content:
       title: DEI & Volunteer Work
   - block: collection

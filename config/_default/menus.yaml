@@ -14,7 +14,7 @@ main:
     url: '#writing'
     weight: 30
   - name: DEI/Volunteering
-    url: '#dei'
+    url: '#dei-volunteering'
     weight: 40
   - name: eCommerce
     url: '#ecommerce'
