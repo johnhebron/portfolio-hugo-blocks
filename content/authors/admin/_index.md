@@ -44,7 +44,8 @@ interests:
   - Technical Writer
 
 education:
-  - area: 'Bachelor of Interdisciplinary Studies in English, Theatre, Sociology, & Film'
+  - area: 'Bachelor of Interdisciplinary Studies'
+    minors: 'in English, Theatre, Sociology, & Film'
     institution: Louisiana State University, Baton Rouge
     # date_start: 2016-01-01
     date_end: 2012-05-31
@@ -79,7 +80,7 @@ work:
   - position: Senior Software Engineer (Contractor)
     company_name: OpsLevel
     company_url: 'https://www.opslevel.com/'
-    company_logo: 'brands/netlify-logo'
+    company_logo: 'brands/opslevel-logo'
     date_start: 2024-09-01
     date_end: 2025-02-01
     summary: |2-
@@ -88,7 +89,7 @@ work:
   - position: Senior Software Engineer, Enterprise Experience Team
     company_name: Netlify
     company_url: ''
-    company_logo: ''
+    company_logo: 'brands/netlify-logo'
     date_start: 2023-04-01
     date_end: 2023-10-31
     summary: |
@@ -100,7 +101,7 @@ work:
   - position: Software Engineer II, Billing Platform Team
     company_name: BigCommerce
     company_url: 'https://www.bigcommerce.com/'
-    company_logo: ''
+    company_logo: 'brands/bigcommerce'
     date_start: 2020-03-01
     date_end: 2022-12-31
     summary: |
@@ -114,7 +115,7 @@ work:
   - position: Software Engineer I, Billing Platform Team
     company_name: BigCommerce
     company_url: 'https://www.bigcommerce.com/'
-    company_logo: ''
+    company_logo: 'brands/bigcommerce'
     date_start: 2018-08-01
     date_end: 2020-03-31
     summary: |
@@ -125,7 +126,7 @@ work:
   - position: Technical Support Manager
     company_name: BigCommerce
     company_url: 'https://www.bigcommerce.com/'
-    company_logo: ''
+    company_logo: 'brands/bigcommerce'
     date_start: 2015-06-01
     date_end: 2018-08-31
     summary: |
@@ -136,13 +137,13 @@ work:
   - position: Technical Outsource Trainer
     company_name: BigCommerce
     company_url: 'https://www.bigcommerce.com/'
-    company_logo: ''
+    company_logo: 'brands/bigcommerce'
     date_start: 2014-08-01
     date_end: 2015-06-30
   - position: Technical Support Agent (Phone/Web and Escalations)
     company_name: BigCommerce
     company_url: 'https://www.bigcommerce.com/'
-    company_logo: ''
+    company_logo: 'brands/bigcommerce'
     date_start: 2013-02-01
     date_end: 2014-08-30
 
