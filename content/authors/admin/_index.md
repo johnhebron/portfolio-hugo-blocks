@@ -79,7 +79,7 @@ work:
   - position: Senior Software Engineer (Contractor)
     company_name: OpsLevel
     company_url: 'https://www.opslevel.com/'
-    company_logo: ''
+    company_logo: 'brands/netlify-logo'
     date_start: 2024-09-01
     date_end: 2025-02-01
     summary: |2-
