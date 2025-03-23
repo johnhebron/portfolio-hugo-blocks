@@ -27,36 +27,45 @@
 {{ range $idx, $key := sort $awards ".date_start" "desc" }}
 <div class="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   {{- $icon := .icon }}
-  {{ with $icon }}
-  <div class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3">
-    {{ partial "functions/get_icon" (dict "name" $icon "pack" "brands" "attributes" "style=\"height: 100%;\"")  }}
-  </div>
-  {{ end}}
-  {{with .url}}<a href={{.}} target="_blank" rel="noopener">{{end}}
-    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{.title | markdownify | emojify}}</h5>
-  {{with .url}}</a>{{end}}
+  <div class="flex items-start gap-3">
+    {{ with $icon }}
+    <div class="w-7 h-7 mt-2 mr-3 text-gray-500 dark:text-gray-400">
+      {{ partial "functions/get_icon" (dict "name" $icon "pack" "brands" "attributes" "style=\"height: 100%;\"")  }}
+    </div>
+    {{ end }}
 
-  <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-    <p>{{.awarder}}</p>
-    <p>{{ if .date}}
-      {{ (time .date) | time.Format ($block.design.date_format | default "January 2006") }}
-    {{else}}
-      {{ i18n "present" | default "Present" }}
-    {{end}}
-    {{ if .end_date}}
-      - {{ (time .end_date) | time.Format ($block.design.date_format | default "January 2006") }}
-    {{else}}
-      - {{ i18n "present" | default "Present" }}
-    {{end}}
-    </p>
+    <div class="flex flex-col">
+      <h5 class="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{ .title | markdownify | emojify }}</h5>
+
+      <!-- Awarder & Date section moved here beneath the title -->
+      <div class="font-normal leading-none text-gray-500 dark:text-gray-300 mb-2">
+        {{ with .url }}<a href={{.}} target="_blank" rel="noopener">{{ end }}
+          <h4>{{ .awarder }}</h4>
+        {{ with .url }}</a>{{ end }}
+      </div>
+      <div class="text-sm font-normal leading-none text-gray-900 dark:text-gray-500">
+        <p>
+          {{ if .date }}
+            {{ (time .date) | time.Format ($block.design.date_format | default "January 2006") }}
+          {{ else }}
+            {{ i18n "present" | default "Present" }}
+          {{ end }}
+          {{ if .end_date }}
+            - {{ (time .end_date) | time.Format ($block.design.date_format | default "January 2006") }}
+          {{ else }}
+            - {{ i18n "present" | default "Present" }}
+          {{ end }}
+        </p>
+      </div>
+    </div>
   </div>
 
-  {{with .summary}}
-  <div class="mb-3 font-normal text-gray-500 dark:text-gray-400 prose">{{. | markdownify | emojify}}</div>
-  {{end}}
+  {{ with .summary }}
+  <div class="mt-3 font-normal text-gray-500 dark:text-gray-400 prose">{{ . | markdownify | emojify }}</div>
+  {{ end }}
 
   {{ with .certificate_url }}
-  <a href="{{.}}" target="_blank" rel="noopener" class="inline-flex items-center text-primary-600 dark:text-primary-300 hover:underline">
+  <a href="{{ . }}" target="_blank" rel="noopener" class="inline-flex items-center text-primary-600 dark:text-primary-300 hover:underline">
     {{ i18n "see_certificate" | default "See certificate" }}
     <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
       <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
