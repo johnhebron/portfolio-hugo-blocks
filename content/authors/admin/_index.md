@@ -150,44 +150,44 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+  # - name: Technical Skills
+  #   items:
+  #     - name: Python
+  #       description: ''
+  #       percent: 80
+  #       icon: code-bracket
+  #     - name: Data Science
+  #       description: ''
+  #       percent: 100
+  #       icon: chart-bar
+  #     - name: SQL
+  #       description: ''
+  #       percent: 40
+  #       icon: circle-stack
+  # - name: Hobbies
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Hiking
+  #       description: ''
+  #       percent: 60
+  #       icon: person-simple-walk
+  #     - name: Cats
+  #       description: ''
+  #       percent: 100
+  #       icon: cat
+  #     - name: Photography
+  #       description: ''
+  #       percent: 80
+  #       icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Chinese
+#     percent: 75
+#   - name: Portuguese
+#     percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -197,34 +197,39 @@ awards:
   - title: Guest Speaker
     url: https://www.techwomen.org/
     date: '2022-03-01'
+    end_date: '2022-08-01'
     awarder: TechWomen
     icon: brands/techwomen
+    certificate_url: https://www.bigeng.io/2022-techwomen/
+    button_text: Read More About The TechWomen Visits on the BigEng Blog
     summary: |
       BigCommerce served as a host/sponsor for 5 awesome applicants in both the H1 2022 TechWomen and the H2 2022 TechWomen conferences.
 
       As part of their week at BigCommerce learning about all things from ecommerce to being a leader in tech, I was invited to speak about BigCommerce and BigCommerce Engineering (as I was a 9 year veteran at this point) as well as my background as an entrepreneur and creator.
 
       Speaking to the TechWomen teams is one of the most amazing opportunities I have ever had and I am always so humbled and overwhelmed by the amazing work that these women do. I am honored that my company chooses to support them!
-
-      To read more about the TechWomen visits to BigCommerce, check out this blog post: https://www.bigeng.io/2022-techwomen/
   - title: Mentor
     url: https://www.annrichardsschool.org/
     date: '2019-02-01'
+    end_date: '2019-02-28'
     awarder: Ann Richards School for Young Women Leaders
     icon: brands/ann_richards_school_for_young_women_leaders
+    certificate_url: https://www.bigeng.io/opening-the-door-for-future-women-leaders/
+    button_text: Read More About Their Visit on the BigEng Blog
     summary: |
       I was invited to act as a mentor for the visiting students from the Anne Richards School for Future Women Leaders during their week long internship at BigCommerce.
 
       During their time, the high schoolers worked with numerous BigCommerce employees to ideate, plan, and execute on an ecommerce business idea. The goal was to provide them with a super condensed look into the world of being an entrepreneur and working in ecommerce or tech.
 
       I was lucky enough to be able to spend the week assisting the team with ecommerce/business guidance from my time running multiple online businesses, as well as design and coding advice for their project website.
-
-      To find out more about their visit, check out this blog post: https://www.bigeng.io/opening-the-door-for-future-women-leaders/
   - title: LGBTQ+ ERG Founder and Lead
     url: https://careers.bigcommerce.com/inside-bigcommerce/diversity-equity-inclusion/
-    date: '2021-12-01'
+    date: '2018-07-01'
+    end_date: '2021-12-01'
     awarder: BProud ERG @ BigCommerce
     icon: brands/bproud_@_bigcommerce
+    button_text: Checkout BigCommerce's DEI Page
+    certificate_url: https://careers.bigcommerce.com/inside-bigcommerce/diversity-equity-inclusion/
     summary: |
       BProud, BigCommerce’s LGBTQ+ and Allies employee resource group, represents the aspirations and spirit of many more LGBTQ+ BigCommerce employees than I could possibly count.
 
@@ -235,33 +240,38 @@ awards:
       After this amazing discovery, that so many people were out there who also wanted to support us, we finally had the steam to form and build our ERG! Over the years, BProud has provided social, educational, and inspirational events, talks, and more to BigCommerce employees about LGBTQ+ topics.
   - title: Corporate Sponsorship/Participant
     url: https://swhackout.org/
-    date: '2018-06-01'
+    date: '2017-06-01'
+    end_date: '2018-06-01'
     awarder: Startout
     icon: brands/startout
+    certificate_url: https://www.youtube.com/watch?v=RrZzOmH-sTw
+    button_text: View the Hackout Video on YouTube
     summary: |
       In support of the 2017 and 2018 Hackout, Austin’s first and only LGBTQIA+ entrepreneurship weekend, I secured corporate sponsorship from BigCommerce to support the event, encouraged participation resulting in multiple BigCommerce employee teams, and was lucky enough to participate in the weekend events as a member of my own team.
 
       As an overlap between LGBTQIA+ and entrepreneurship, Hackout holds a special place in my heart. If you look closely, you can still see a number of past BigCommerce employees featured on the Hackout website and videos!
-
-      To see an overview of HackOut with a special intro by yours truly, check out this video: https://www.youtube.com/watch?v=RrZzOmH-sTw
   - title: Corporate Sponsorship/Chili Cookoff Participant
     url: https://humaneheroes.org/
-    date: '2019-03-01'
+    date: '2015-02-01'
+    end_date: '2019-03-01'
     awarder: Texas Humane Heroes
     icon: brands/texas_humane_heroes
+    certificate_url: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019
+    button_text: Read the article on BuiltInAustin.com
     summary: |
       In support of the annual Texas Humane Heroes (THH) Chili Cookoff fundraiser, I would promote and organize participation and sponsorship of the fundraiser from BigCommerce.
 
       Each Q1 from 2015-2019 (5 years!) I would support the THH Chili Cookoff by forming multiple BigCommerce sponsored cooking teams, securing BigCommerce sponsored participant tickets for employees, and negotiating financial sponsorship opportunities to allow BigCommerce to financially support the work of THH.
 
       I’m proud to say that we adopted both of our beautiful pups from the amazing THH family, as well!
-
-      Check out this article from BuiltInAustin where I was able to share about BigCommerce’s volunteer work: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019
   - title: Toy Drive Organizer and Fundraiser
     url: https://partnershipsforchildren.org/holiday-wishes/
-    date: '2019-12-01'
+    date: '2014-10-01'
+    end_date: '2019-12-01'
     awarder: Partnerships for Children
     icon: brands/partnerships_for_children
+    certificate_url: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019
+    button_text: Read the article on BuiltInAustin.com
     summary: |
       Every holiday season from 2014 to 2019 (6 years!) I volunteered as lead of the BigCommerce Holiday Wishes Toy Drive in support of Partnerships for Children (PfC).
 
@@ -269,7 +279,7 @@ awards:
 
       Each year we would sponsor between 100-500 children with our largest year garnering over $10,000 in donations!
 
-      Check out this article from BuiltInAustin where I was able to share about BigCommerce’s volunteer work: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019
+      Check out this article from BuiltInAustin where I was able to share about BigCommerce’s volunteer work:
 ---
 
 ## About Me

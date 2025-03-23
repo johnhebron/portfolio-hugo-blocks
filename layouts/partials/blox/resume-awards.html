@@ -37,12 +37,18 @@
   {{with .url}}</a>{{end}}
 
   <div class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
-    {{.awarder}} &#8729;
-    {{ if .date}}
+    <p>{{.awarder}}</p>
+    <p>{{ if .date}}
       {{ (time .date) | time.Format ($block.design.date_format | default "January 2006") }}
     {{else}}
       {{ i18n "present" | default "Present" }}
     {{end}}
+    {{ if .end_date}}
+      - {{ (time .end_date) | time.Format ($block.design.date_format | default "January 2006") }}
+    {{else}}
+      - {{ i18n "present" | default "Present" }}
+    {{end}}
+    </p>
   </div>
 
   {{with .summary}}
