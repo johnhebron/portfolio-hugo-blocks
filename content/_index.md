@@ -153,6 +153,7 @@ sections:
         css_class: "bg-primary-700"
         css_style: ""
   - block: markdown
+    id: contact
     content:
       title: 'Contact'
       subtitle: ''
