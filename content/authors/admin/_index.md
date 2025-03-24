@@ -201,7 +201,7 @@ awards:
     awarder: TechWomen
     icon: brands/techwomen
     certificate_url: https://www.bigeng.io/2022-techwomen/
-    button_text: Read More About The TechWomen Visits on the BigEng Blog
+    certificate_text: Read More About The TechWomen Visits on the BigEng Blog
     summary: |
       BigCommerce served as a host/sponsor for 5 awesome applicants in both the H1 2022 TechWomen and the H2 2022 TechWomen conferences.
 
@@ -215,7 +215,7 @@ awards:
     awarder: Ann Richards School for Young Women Leaders
     icon: brands/ann_richards_school_for_young_women_leaders
     certificate_url: https://www.bigeng.io/opening-the-door-for-future-women-leaders/
-    button_text: Read More About Their Visit on the BigEng Blog
+    certificate_text: Read More About Their Visit on the BigEng Blog
     summary: |
       I was invited to act as a mentor for the visiting students from the Anne Richards School for Future Women Leaders during their week long internship at BigCommerce.
 
@@ -228,7 +228,7 @@ awards:
     end_date: '2021-12-01'
     awarder: BProud ERG @ BigCommerce
     icon: brands/bproud_@_bigcommerce
-    button_text: Checkout BigCommerce's DEI Page
+    certificate_text: Checkout BigCommerce's DEI Page
     certificate_url: https://careers.bigcommerce.com/inside-bigcommerce/diversity-equity-inclusion/
     summary: |
       BProud, BigCommerce’s LGBTQ+ and Allies employee resource group, represents the aspirations and spirit of many more LGBTQ+ BigCommerce employees than I could possibly count.
@@ -245,7 +245,7 @@ awards:
     awarder: Startout
     icon: brands/startout
     certificate_url: https://www.youtube.com/watch?v=RrZzOmH-sTw
-    button_text: View the Hackout Video on YouTube
+    certificate_text: View the Hackout Video on YouTube
     summary: |
       In support of the 2017 and 2018 Hackout, Austin’s first and only LGBTQIA+ entrepreneurship weekend, I secured corporate sponsorship from BigCommerce to support the event, encouraged participation resulting in multiple BigCommerce employee teams, and was lucky enough to participate in the weekend events as a member of my own team.
 
@@ -257,7 +257,7 @@ awards:
     awarder: Texas Humane Heroes
     icon: brands/texas_humane_heroes
     certificate_url: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019
-    button_text: Read the article on BuiltInAustin.com
+    certificate_text: Read the article on BuiltInAustin.com
     summary: |
       In support of the annual Texas Humane Heroes (THH) Chili Cookoff fundraiser, I would promote and organize participation and sponsorship of the fundraiser from BigCommerce.
 
@@ -271,7 +271,7 @@ awards:
     awarder: Partnerships for Children
     icon: brands/partnerships_for_children
     certificate_url: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019
-    button_text: Read the article on BuiltInAustin.com
+    certificate_text: Read the article on BuiltInAustin.com
     summary: |
       Every holiday season from 2014 to 2019 (6 years!) I volunteered as lead of the BigCommerce Holiday Wishes Toy Drive in support of Partnerships for Children (PfC).
 
