@@ -128,7 +128,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: date-title-summary
+      view: article-grid
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
@@ -152,4 +152,14 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
+  - block: markdown
+    content:
+      title: 'Contact'
+      subtitle: ''
+      text: |-
+        I'd love to hear from you!
+
+        Feel free to [send me an 📧 email](mailto:johnhebron@gmail.com) or to reach out [via LinkedIn](https://www.linkedin.com/in/johnhebron/) and I'll get back to you as quickly as I can.
+    design:
+      columns: '1'
 ---
