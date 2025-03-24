@@ -16,11 +16,11 @@ main:
   - name: DEI/Volunteering
     url: '#dei-volunteering'
     weight: 40
-  - name: eCommerce
-    url: '#ecommerce'
-    weight: 50
+  # - name: eCommerce
+  #   url: '#ecommerce'
+  #   weight: 50
   - name: Media
-    url: '#media'
+    url: '#news'
     weight: 60
   - name: Contact
     url: '#contact'
